@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Wrong or missing map data
+    url: https://github.com/OvertureMaps/data/issues/new/choose
+    about: The data on gers.page comes from Overture's releases. Report data problems to Overture.
+  - name: Takedown requests
+    url: https://overturemaps.org/data-takedown/
+    about: gers.page isn't an Overture channel. Send takedown requests to Overture.

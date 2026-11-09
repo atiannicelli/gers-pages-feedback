@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest an idea for gers.page.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Issues here are public.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page the idea relates to, if any.
+      placeholder: https://gers.page/id/...
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help?

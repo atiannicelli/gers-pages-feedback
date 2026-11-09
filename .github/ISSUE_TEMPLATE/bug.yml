@@ -1,0 +1,27 @@
+name: Bug report
+description: Something on gers.page doesn't work or looks wrong.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues here are public. Problems with the map data itself go to
+        [Overture](https://github.com/OvertureMaps/data/issues/new/choose).
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page where you saw the problem.
+      placeholder: https://gers.page/id/...
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: What you did, what you saw and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Firefox on macOS
