@@ -1,10 +1,21 @@
-name: Feature request
-description: Suggest an idea for gers.page.
+name: Website feature request
+description: Suggest an idea for the gers.page website. Not for map data.
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
-      value: Issues here are public.
+      value: |
+        This repository is only for the gers.page website. Requests about the map data go to
+        [Overture](https://github.com/OvertureMaps/data/issues/new/choose).
+
+        Issues here are public.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Website only
+      options:
+        - label: This is about the website, not the map data.
+          required: true
   - type: input
     id: page
     attributes:

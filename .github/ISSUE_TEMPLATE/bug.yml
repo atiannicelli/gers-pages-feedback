@@ -1,12 +1,22 @@
-name: Bug report
-description: Something on gers.page doesn't work or looks wrong.
+name: Website bug
+description: Something on the gers.page website doesn't work or display properly. Not for map data.
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: |
-        Issues here are public. Problems with the map data itself go to
+        This repository is only for the gers.page website. It doesn't take reports about the map data, such as wrong
+        names, addresses, categories or shapes. Report those to
         [Overture](https://github.com/OvertureMaps/data/issues/new/choose).
+
+        Issues here are public.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Website only
+      options:
+        - label: This is about the website, not the map data.
+          required: true
   - type: input
     id: page
     attributes:
